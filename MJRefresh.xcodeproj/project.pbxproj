@@ -45,6 +45,8 @@
 		04491AB81CC47D5D0077FCA2 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491A931CC47D5D0077FCA2 /* UIScrollView+MJRefresh.m */; };
 		04491AB91CC47D5D0077FCA2 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 04491A941CC47D5D0077FCA2 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04491ABA1CC47D5D0077FCA2 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04491A951CC47D5D0077FCA2 /* UIView+MJExtension.m */; };
+		E6762E0C1F67BFB30080C38D /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = E6762E0A1F67BFB30080C38D /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6762E0D1F67BFB30080C38D /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E6762E0B1F67BFB30080C38D /* NSBundle+MJRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		04491A931CC47D5D0077FCA2 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		04491A941CC47D5D0077FCA2 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		04491A951CC47D5D0077FCA2 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		E6762E0A1F67BFB30080C38D /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		E6762E0B1F67BFB30080C38D /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				04491A931CC47D5D0077FCA2 /* UIScrollView+MJRefresh.m */,
 				04491A941CC47D5D0077FCA2 /* UIView+MJExtension.h */,
 				04491A951CC47D5D0077FCA2 /* UIView+MJExtension.m */,
+				E6762E0A1F67BFB30080C38D /* NSBundle+MJRefresh.h */,
+				E6762E0B1F67BFB30080C38D /* NSBundle+MJRefresh.m */,
 				04491A631CC47CCA0077FCA2 /* MJRefresh.h */,
 				04491A651CC47CCA0077FCA2 /* Info.plist */,
 			);
@@ -236,6 +242,7 @@
 				04491AA01CC47D5D0077FCA2 /* MJRefreshAutoGifFooter.h in Headers */,
 				04491AA61CC47D5D0077FCA2 /* MJRefreshBackGifFooter.h in Headers */,
 				04491A9C1CC47D5D0077FCA2 /* MJRefreshFooter.h in Headers */,
+				E6762E0C1F67BFB30080C38D /* NSBundle+MJRefresh.h in Headers */,
 				04491AAE1CC47D5D0077FCA2 /* MJRefreshNormalHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04491AAD1CC47D5D0077FCA2 /* MJRefreshGifHeader.m in Sources */,
+				E6762E0D1F67BFB30080C38D /* NSBundle+MJRefresh.m in Sources */,
 				04491A9F1CC47D5D0077FCA2 /* MJRefreshHeader.m in Sources */,
 				04491AAB1CC47D5D0077FCA2 /* MJRefreshBackStateFooter.m in Sources */,
 				04491AAF1CC47D5D0077FCA2 /* MJRefreshNormalHeader.m in Sources */,
